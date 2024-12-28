@@ -1,2 +1,1 @@
-# DES205_DIS_Project
-Designverse, VR Based Application for DIS Project (DES205)
+Primary Repository for DesignVerse, a VR based Project for DIS (DES205) course during Monsoon semester 2024 at IIITD.

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DesignVerse</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    nav .logo {
+      font-size: 24px;
+      font-weight: 700;
+      color: #ff69b4;
+    }
+
+    .hero {
+      background-color: #333;
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      line-height: 1.5;
+      max-width: 800px;
+      margin: 0 auto 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #ff69b4;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 4px;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #e65ca7;
+    }
+
+    .features {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+
+    .feature-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .feature {
+      width: 300px;
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+
+    .feature i {
+      font-size: 48px;
+      color: #ff69b4;
+      margin-bottom: 20px;
+    }
+
+    .feature h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">DesignVerse</div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to DesignVerse</h1>
+      <p>Explore an immersive virtual platform showcasing the creativity and innovation of students across various disciplines. Engage with digital art, 3D models, multimedia projects, and more. Leave feedback, explore interactive features, and experience the future of art exhibitions.</p>
+      <a href="projects_page.html" class="btn">Start Exploring</a>
+    </section>
+
+    <section class="features">
+      <h2>Key Features</h2>
+      <div class="feature-list">
+        <div class="feature">
+          <i class="fas fa-palette"></i>
+          <h3>Diverse Art Forms</h3>
+          <p>Experience a wide range of art forms, including images, videos, 3D models, and more.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-comments"></i>
+          <h3>Interactive Feedback</h3>
+          <p>Engage with artworks by leaving feedback in various forms, including text, images, or audio comments.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-archive"></i>
+          <h3>Archival System</h3>
+          <p>Preserve and showcase student work for future generations, ensuring exemplary projects are inducted into a visual hall of fame.</p>
+        </div>
+        <!-- <div class="feature">
+          <i class="fas fa-check-double"></i>
+          <h3>Plagiarism Checker</h3>
+          <p>Uphold academic integrity with a built-in plagiarism checker, verifying the originality of student submissions.</p>
+        </div> -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 DesignVerse. All rights reserved.</p>
+  </footer>
+</body>
+</html>

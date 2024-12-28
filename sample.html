@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DIS Project</title>
+<style>
+    /* Font */
+    body {
+        font-family: 'Roboto', sans-serif;
+        color: #333;
+        background-color: #f0f0f0;
+    }
+
+    /* Colors */
+    header {
+        background-color: #333;
+        color: #fff;
+        position: fixed; /* keep header fixed */
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1; /* ensure header is on top */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+    }
+
+    .logo {
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #ff69b4; /* vibrant font color */
+        cursor: pointer;
+        position: relative;
+    }
+
+    .logo:hover .dropdown {
+        display: block;
+    }
+
+    .dropdown {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown a {
+        color: #333;
+        padding: 12px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+    }
+
+    .dropdown a:hover {background-color: #f1f1f1}
+
+    /* Layout */
+    main {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 1rem;
+        padding-top: 100px; /* adjust for fixed header */
+    }
+
+    section {
+        margin-bottom: 2rem;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .horizontal-boxes {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+
+    .placeholder-video {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .comments {
+        margin-top: 2rem;
+    }
+
+    .comment {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+    .comment-text {
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .comment-by {
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .comment-date {
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        color: #666;
+    }
+</style>
+</head>
+<body>
+<header>
+    <div class="logo">
+        DesignVerse
+        <div class="dropdown">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section>
+        <video controls class="placeholder-video">
+            <source src="assets/4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <section>
+        <h2>Project4</h2>
+        <p>Artist: <strong>Artist4</strong></p>
+        <p>Roll No: <strong>456</strong></p>
+        <p>Course <strong>Design Processes and Perspectives</strong> <strong>2024</strong> by Prof. <strong>Professor1</strong></p>
+        <p>Description: <strong>Description4</strong></p>
+    </section>
+    <section class="comments">
+        <div class="comment" style="border-color: red;">
+            <p class="comment-text">Comment19</p>
+            <p class="comment-by">By: User19 (999)</p>
+            <p class="comment-date">Date: 2022-01-19</p>
+        </div>
+    </section>
+    <section class="comments">
+        <div class="comment" style="border-color: red;">
+            <p class="comment-text">Comment20</p>
+            <p class="comment-by">By: User20 (121)</p>
+            <p class="comment-date">Date: 2022-01-20</p>
+        </div>
+    </section>
+    <section class="comments">
+        <div class="comment" style="border-color: red;">
+            <p class="comment-text">Comment21</p>
+            <p class="comment-by">By: User21 (122)</p>
+            <p class="comment-date">Date: 2022-01-21</p>
+        </div>
+    </section>
+    <section class="comments">
+        <div class="comment" style="border-color: red;">
+            <p class="comment-text">Comment22</p>
+            <p class="comment-by">By: User22 (223)</p>
+            <p class="comment-date">Date: 2022-01-22</p>
+        </div>
+    </section>
+    <section class="comments">
+        <div class="comment" style="border-color: red;">
+            <p class="comment-text">Comment23</p>
+            <p class="comment-by">By: User23 (334)</p>
+            <p class="comment-date">Date: 2022-01-23</p>
+        </div>
+    </section>
+    <section class="comments">
+        <div class="comment" style="border-color: red;">
+            <p class="comment-text">Comment24</p>
+            <p class="comment-by">By: User24 (445)</p>
+            <p class="comment-date">Date: 2022-01-24</p>
+        </div>
+    </section>
+</main>
+</body>
+</html>
